@@ -1,0 +1,15 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="800" fill="#F3F4F6"/>
+<rect x="0" y="0" width="1200" height="60" fill="#FFFFFF"/>
+<circle cx="30" cy="30" r="8" fill="#FF5F56"/>
+<circle cx="60" cy="30" r="8" fill="#FFBD2E"/>
+<circle cx="90" cy="30" r="8" fill="#27C93F"/>
+<rect x="200" y="20" width="800" height="20" rx="10" fill="#F3F4F6"/>
+<path d="M400 300L600 200L800 300L600 400L400 300Z" stroke="#EC4899" stroke-width="4"/>
+<circle cx="600" cy="200" r="20" fill="#EC4899"/>
+<circle cx="400" cy="300" r="20" fill="#3B82F6"/>
+<circle cx="800" cy="300" r="20" fill="#10B981"/>
+<circle cx="600" cy="400" r="20" fill="#F59E0B"/>
+<text x="600" y="500" font-family="Arial" font-size="40" text-anchor="middle" fill="#9CA3AF">Cherry Studio Interface Preview</text>
+<text x="600" y="550" font-family="Arial" font-size="20" text-anchor="middle" fill="#D1D5DB">(Please replace with actual screenshot)</text>
+</svg>

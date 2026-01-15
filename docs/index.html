@@ -1,1 +1,252 @@
-ddd
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小刀超级桌面 (Cherry Studio) - 您的全能 AI 生产力中心</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', 'PingFang SC', sans-serif; }
+        .hero-gradient { background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%); }
+        .feature-card:hover { transform: translateY(-5px); transition: all 0.3s ease; }
+        .glass-nav { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px); }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-nav border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-pink-600">🍒 Cherry Studio</span>
+                    <span class="ml-2 text-gray-500 font-medium">小刀超级桌面</span>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#features" class="text-gray-600 hover:text-pink-600 transition">功能</a>
+                    <a href="#creative" class="text-gray-600 hover:text-pink-600 transition">创作</a>
+                    <a href="#privacy" class="text-gray-600 hover:text-pink-600 transition">隐私</a>
+                    <a href="https://github.com/cherrystudio" class="bg-pink-600 text-white px-5 py-2 rounded-full hover:bg-pink-700 transition shadow-lg">立即下载</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="pt-32 pb-20 hero-gradient overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 space-y-6 text-center md:text-left">
+                <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight text-gray-900 leading-tight">
+                    定义您的下个 <br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-purple-600">AI 生产力工作台</span>
+                </h1>
+                <p class="text-xl text-gray-600 max-w-lg mx-auto md:mx-0">
+                    小刀超级桌面 (Cherry Studio) 是一款跨平台的 AI 桌面客户端，集成了全球领先的 AI 模型，助您在办公、创作、编码中事半功倍。
+                </p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center md:justify-start">
+                    <button class="bg-gray-900 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:bg-gray-800 transition shadow-xl">
+                        <i class="fab fa-windows mr-2"></i> 下载 Windows 版
+                    </button>
+                    <button class="bg-white text-gray-900 border-2 border-gray-200 px-8 py-4 rounded-xl text-lg font-semibold hover:border-pink-600 hover:text-pink-600 transition">
+                        <i class="fab fa-apple mr-2"></i> macOS 版
+                    </button>
+                </div>
+                <p class="text-sm text-gray-400 italic">v2.1.0 现已发布 · 开源且完全本地加密存储</p>
+            </div>
+            <div class="md:w-1/2 mt-12 md:mt-0 relative">
+                <div class="bg-white p-2 rounded-2xl shadow-2xl border border-gray-100 transform rotate-2">
+                    <img src="hero-screenshot.svg" alt="小刀超级桌面界面演示" class="rounded-xl shadow-inner bg-gray-100 min-h-[400px] w-full object-cover">
+                    <!-- Placeholder if image not found -->
+                    <div class="absolute inset-0 flex items-center justify-center text-gray-300 pointer-events-none opacity-20">
+                        <i class="fas fa-desktop text-9xl"></i>
+                    </div>
+                </div>
+                <div class="absolute -bottom-6 -left-6 bg-pink-100 p-4 rounded-2xl shadow-lg border border-pink-200 transform -rotate-3 hidden lg:block">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 bg-pink-500 rounded-full flex items-center justify-center text-white">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <div>
+                            <p class="text-xs font-bold text-pink-800">响应速度</p>
+                            <p class="text-sm font-black text-pink-600">提升 300%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Model Logos -->
+    <section class="py-12 bg-white border-y border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-sm font-semibold text-gray-400 uppercase tracking-widest mb-8">支持全球顶尖 AI 模型</p>
+            <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-50 grayscale hover:grayscale-0 transition duration-500">
+                <span class="text-2xl font-bold flex items-center"><i class="fas fa-brain mr-2 text-green-500"></i> OpenAI</span>
+                <span class="text-2xl font-bold flex items-center"><i class="fas fa-bolt mr-2 text-orange-500"></i> Claude</span>
+                <span class="text-2xl font-bold flex items-center"><i class="fas fa-compass mr-2 text-blue-500"></i> DeepSeek</span>
+                <span class="text-2xl font-bold flex items-center"><i class="fas fa-microchip mr-2 text-purple-500"></i> Gemini</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Features -->
+    <section id="features" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900">不仅是对话，更是超级助手</h2>
+                <p class="mt-4 text-gray-600">集成了多种生产力工具，满足您的全方位需求</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm feature-card">
+                    <div class="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 mb-6 text-2xl">
+                        <i class="fas fa-sitemap"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">智能思维导图</h3>
+                    <p class="text-gray-600">输入一句话，自动生成结构化思维导图，支持导出图片和实时编辑，让创意瞬间可视化。</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm feature-card">
+                    <div class="w-14 h-14 bg-pink-50 rounded-2xl flex items-center justify-center text-pink-600 mb-6 text-2xl">
+                        <i class="fas fa-sticky-note"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">极速灵感笔记</h3>
+                    <p class="text-gray-600">侧边栏随手记，支持 Markdown 语法，自动关联当前对话上下文，再也不会遗失任何闪现的灵感。</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm feature-card">
+                    <div class="w-14 h-14 bg-green-50 rounded-2xl flex items-center justify-center text-green-600 mb-6 text-2xl">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">AI 任务管理</h3>
+                    <p class="text-gray-600">将复杂的项目拆解为可执行的任务清单，AI 自动预测完成时间，助您高效掌控工作节奏。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creative Suite -->
+    <section id="creative" class="py-24 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <div class="lg:w-1/2 order-2 lg:order-1">
+                    <div class="relative">
+                        <img src="creative-suite.svg" alt="创作中心" class="rounded-3xl shadow-2xl border border-gray-100 bg-gray-50 min-h-[500px] w-full object-cover">
+                        <div class="absolute -top-10 -right-10 bg-white p-6 rounded-2xl shadow-xl border border-gray-50 hidden lg:block">
+                            <div class="space-y-4">
+                                <div class="flex items-center space-x-3">
+                                    <div class="w-2 h-2 rounded-full bg-pink-500"></div>
+                                    <div class="h-2 w-24 bg-gray-100 rounded"></div>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <div class="w-2 h-2 rounded-full bg-purple-500"></div>
+                                    <div class="h-2 w-32 bg-gray-100 rounded"></div>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <div class="w-2 h-2 rounded-full bg-blue-500"></div>
+                                    <div class="h-2 w-20 bg-gray-100 rounded"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 order-1 lg:order-2 space-y-8">
+                    <h2 class="text-4xl font-bold text-gray-900 leading-tight">全方位的 AI 创作中心</h2>
+                    <p class="text-lg text-gray-600">
+                        Cherry Studio 不仅仅是一个聊天框。我们集成了强大的图像、视频和代码生成引擎，让您在一个界面内完成从构思到成品的全过程。
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center mt-1 mr-3">
+                                <i class="fas fa-check text-xs"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">AI 画廊与生图</h4>
+                                <p class="text-gray-500 text-sm">支持 Stable Diffusion, Flux, DALL-E 等多种生图引擎。</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center mt-1 mr-3">
+                                <i class="fas fa-check text-xs"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">智能代码编辑</h4>
+                                <p class="text-gray-500 text-sm">内置 Monaco Editor，支持 50+ 种语言语法高亮与 AI 实时纠错。</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center mt-1 mr-3">
+                                <i class="fas fa-check text-xs"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">视频生成工作流</h4>
+                                <p class="text-gray-500 text-sm">一键将文案转化为短视频，支持任务排队与状态追踪。</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy & Security -->
+    <section id="privacy" class="py-24 bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-2/3 space-y-6">
+                    <h2 class="text-3xl font-bold">您的数据，您自己掌握</h2>
+                    <p class="text-gray-400 text-lg">
+                        小刀超级桌面始终将用户隐私放在首位。所有 API 密钥、聊天记录和配置文件都存储在您的本地计算机上，绝不会上传到我们的服务器。
+                    </p>
+                    <div class="grid sm:grid-cols-2 gap-6 pt-6">
+                        <div class="flex items-center space-x-4 bg-gray-800 p-4 rounded-2xl border border-gray-700">
+                            <i class="fas fa-shield-alt text-2xl text-pink-500"></i>
+                            <span>本地端到端加密</span>
+                        </div>
+                        <div class="flex items-center space-x-4 bg-gray-800 p-4 rounded-2xl border border-gray-700">
+                            <i class="fas fa-key text-2xl text-blue-500"></i>
+                            <span>钥匙串级别密钥保护</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/3 flex justify-center">
+                    <div class="w-64 h-64 border-4 border-dashed border-gray-700 rounded-full flex items-center justify-center relative">
+                        <i class="fas fa-lock text-6xl text-gray-700"></i>
+                        <div class="absolute -top-4 bg-pink-600 px-4 py-1 rounded-full text-sm font-bold animate-bounce">100% 本地存储</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-12 border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
+                <div class="flex flex-col items-center md:items-start">
+                    <div class="flex items-center">
+                        <span class="text-2xl font-bold text-pink-600">🍒 Cherry Studio</span>
+                    </div>
+                    <p class="mt-2 text-sm text-gray-500">© 2026 小刀超级桌面. 保留所有权利。</p>
+                </div>
+                <div class="flex space-x-6 text-gray-400">
+                    <a href="#" class="hover:text-pink-600"><i class="fab fa-github text-xl"></i></a>
+                    <a href="#" class="hover:text-pink-600"><i class="fab fa-twitter text-xl"></i></a>
+                    <a href="#" class="hover:text-pink-600"><i class="fab fa-discord text-xl"></i></a>
+                </div>
+                <div class="flex space-x-8 text-sm font-medium text-gray-600">
+                    <a href="#" class="hover:text-pink-600">服务条款</a>
+                    <a href="#" class="hover:text-pink-600">隐私政策</a>
+                    <a href="#" class="hover:text-pink-600">开发者 API</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

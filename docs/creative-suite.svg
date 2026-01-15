@@ -1,0 +1,13 @@
+<svg width="1000" height="800" viewBox="0 0 1000 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1000" height="800" fill="#F9FAFB"/>
+<rect x="100" y="100" width="800" height="600" rx="20" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+<rect x="150" y="150" width="200" height="150" rx="10" fill="#DBEAFE"/>
+<rect x="400" y="150" width="450" height="150" rx="10" fill="#F3F4F6"/>
+<rect x="150" y="350" width="450" height="300" rx="10" fill="#FCE7F3"/>
+<rect x="650" y="350" width="200" height="300" rx="10" fill="#ECFDF5"/>
+<circle cx="250" cy="225" r="30" fill="#3B82F6" fill-opacity="0.5"/>
+<rect x="450" y="200" width="300" height="10" rx="5" fill="#D1D5DB"/>
+<rect x="450" y="230" width="200" height="10" rx="5" fill="#D1D5DB"/>
+<text x="500" y="750" font-family="Arial" font-size="30" text-anchor="middle" fill="#9CA3AF">Creative Suite Tools Preview</text>
+<text x="500" y="780" font-family="Arial" font-size="16" text-anchor="middle" fill="#D1D5DB">(Please replace with actual screenshot)</text>
+</svg>
